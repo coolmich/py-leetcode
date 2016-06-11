@@ -3,3 +3,4 @@
 *.pyc
 code/*.pyc
 .idea/
+vis.py
