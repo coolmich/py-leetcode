@@ -8,3 +8,4 @@ if ! [[ $ans =~ ^[0-9]+$ ]];then
 else
     git commit -m "Complete Problem $ans"
 fi
+git push origin master
