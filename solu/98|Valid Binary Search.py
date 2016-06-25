@@ -22,4 +22,3 @@ class Solution(object):
         if node.left: self.helper(node.left, li)
         li.append(node.val)
         if node.right: self.helper(node.right, li)
-        
