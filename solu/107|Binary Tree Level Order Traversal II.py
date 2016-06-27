@@ -21,4 +21,3 @@ class Solution(object):
             res.append([item.val for item in stack])
             stack = newS
         return res[::-1]
-            
