@@ -23,4 +23,3 @@ class Solution(object):
             if slow.val != cur.val: return False
             slow, cur = slow.next, cur.next
         return True
-            
