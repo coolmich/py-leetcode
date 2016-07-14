@@ -15,4 +15,3 @@ class Solution(object):
             if num&(1<<j): num1 ^= num
             else: num2 ^= num
         return [num1, num2]
-                
