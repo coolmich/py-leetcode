@@ -4,11 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-        left = 0
-        while left < len(nums):
-            while left < len(nums) and nums[left]: left += 1
-            if left == len(nums): return
-            right = left
-            while right < len(nums) and not nums[right]: right += 1
-            if right == len(nums): return
-            nums[left], nums[right] = nums[right], nums[left]
+        j = 0
+        for i in range(len(nums)):
+            if nums[i]:
+                nums[j], j = nums[i], j + 1
+        while j < len(nums): nums[j], j = 0, j + 1
