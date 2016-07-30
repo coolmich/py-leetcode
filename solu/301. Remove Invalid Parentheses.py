@@ -33,4 +33,3 @@ class Solution(object):
         res = []
         traverse(s, 0, '', 0, res, l_rm, r_rm)
         return list(set(res))
-        
