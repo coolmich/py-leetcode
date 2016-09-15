@@ -13,3 +13,4 @@ class Solution(object):
                 j += 1
             res.append(mini)
         return res[-1]
+print Solution().numSquares(7334)
